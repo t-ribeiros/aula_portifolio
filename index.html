@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title> 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
         
 </head>
 
 <body>
 
-<header> </header>
+    <header class="cabecalho">
+         <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html"> Home </a>
+            <a class="cabecalho__menu__link" href="about.html"> Sobre mim </a>
+         </nav>
+    </header>
 
 
-    <main> 
-        <h1> Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
-        <p>Olá meu nome é Tatiane Ribeiro, desenvolvedora Front-end com especialidade em react,html,css. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar? </p>
-        <a href="https://www.linkedin.com/feed/">Linkedin</a>
-        <a href="https://github.com/">Github</a>
-        <img src="img_taty.jpg" alt="Foto da Tatiane">
+    <main class="apresentacao"> 
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo"> Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+                <p class="apresentacao__conteudo__paragrafo">Olá meu nome é Tatiane Ribeiro, desenvolvedora Front-end com especialidade em react,html,css. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar? </p>
+                <h2 class="botoes__links__subtitulo"> Acesse minhas redes:</h2>
+                <div class=" botoes__links">     
+                     <a class="botoes__links__estilo" href="https://www.linkedin.com/feed/">Linkedin
+                     <img src="./assets/linkedin.png" alt="icone do Linkedin">
+                    </a>
+                    <a class="botoes__links__estilo" href="https://github.com/">Github
+                        <img src="./assets/github.png" alt=" icone do Git">
+                    </a> 
+                </div> 
+    </section>
+        <img class="apresentação__imagem" src="./assets/img_taty.jpg" alt="Foto da Tatiane">
 
     </main>
-
-
-
-    <footer> </footer>
-
-
+    <footer class="rodape"> Desenvolvido por TRS v1.2024</footer>
 </body>
-</html>
+</html> 
